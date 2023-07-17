@@ -5,7 +5,7 @@ public class SingletonUsingInnerClass {
 
     }
 
-    //Inner classes got get automatically initialized
+    //Inner classes don't get automatically initialized
     private static class SingletonUsingInnerClassHelper {
         private static final SingletonUsingInnerClass singletonUsingInnerClass = new SingletonUsingInnerClass();
     }
