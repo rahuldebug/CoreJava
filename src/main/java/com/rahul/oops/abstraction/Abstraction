@@ -1,0 +1,9 @@
+Abstraction is a way to hide the actual implementation and functionality .
+In java this can be achieved by abstract class and interface .
+
+Abstraction lays down focus on what is being done , rather than how it is done .
+
+Abstract class :
+
+
+Interface
