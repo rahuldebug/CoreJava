@@ -1,4 +1,4 @@
-package com.rahul.oops.abstraction;
+package com.rahul.oops;
 
 public abstract class Car implements  Vehicle{
     @Override
