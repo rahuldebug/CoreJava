@@ -8,5 +8,16 @@ public class Ternary {
         System.out.println(total);
         total = five + (five > 6 ? two++ : two--);
         System.out.println(total);
+
+        class Code {
+            public static void main(String[] args)
+            {
+                if (true){
+                    //break;
+                    //break can only be put inside loop and not on if condition
+                }
+
+            }
+        }
     }
 }
