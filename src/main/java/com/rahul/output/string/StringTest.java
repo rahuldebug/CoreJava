@@ -8,7 +8,9 @@ public class StringTest {
         System.out.println((og==og2) + " "+ (og.equals(og2)));
         og2=og2.intern();
         System.out.println((og==og2) + " "+ (og.equals(og2)));
-
+        String car = null, bus = "petrol";//both needs to intialized
+        car = car + bus;
+        System.out.println(car);
     }
 }
 /*
