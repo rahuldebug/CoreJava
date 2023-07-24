@@ -11,6 +11,8 @@ public class StringTest {
         String car = null, bus = "petrol";//both needs to intialized
         car = car + bus;
         System.out.println(car);
+        //this will print the ascii values
+        System.out.println('j' + 'a' + 'v' + 'a');
     }
 }
 /*
