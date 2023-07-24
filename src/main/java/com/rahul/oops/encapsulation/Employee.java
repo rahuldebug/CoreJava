@@ -1,4 +1,4 @@
-package com.rahul.oops;
+package com.rahul.oops.encapsulation;
 
 public class Employee {
     //fields and methods are encapsulated , and fields are not directly accessible

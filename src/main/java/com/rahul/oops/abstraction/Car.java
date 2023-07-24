@@ -1,6 +1,6 @@
-package com.rahul.oops;
+package com.rahul.oops.abstraction;
 
-public abstract class Car implements  Vehicle{
+public abstract class Car implements Vehicle {
     @Override
     public void accelarate() {
         System.out.println("increase speed");

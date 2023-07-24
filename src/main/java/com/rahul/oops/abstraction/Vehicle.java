@@ -1,4 +1,4 @@
-package com.rahul.oops;
+package com.rahul.oops.abstraction;
 
 public interface Vehicle {
     public void accelarate();

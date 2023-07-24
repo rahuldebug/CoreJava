@@ -20,3 +20,7 @@ that prevents the data from being accessed by the code outside this shield
 Polymorphism are of two types ,
 compile time (early binding)
 runtime or dynamic dispatch or late binding
+
+Association in oops is relation between objects ,
+Strong relationship : Composition
+when existence of one objects depends on another object , window object and a house object , existence of windows object depends on the house

@@ -1,4 +1,4 @@
-package com.rahul.oops;
+package com.rahul.oops.dynamicbinding;
 
 class Vehicle1 {
     int id = 1;
