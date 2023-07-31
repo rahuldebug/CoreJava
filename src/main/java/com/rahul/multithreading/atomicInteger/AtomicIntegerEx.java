@@ -10,4 +10,7 @@ public class AtomicIntegerEx {
     public  void decrement(){
         atomicInteger.decrementAndGet();
     }
+    public int getVal(){
+        return atomicInteger.get();
+    }
 }
