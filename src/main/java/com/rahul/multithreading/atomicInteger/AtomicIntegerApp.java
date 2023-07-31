@@ -1,4 +1,4 @@
-package com.rahul.multithreading.AtomicInteger;
+package com.rahul.multithreading.atomicInteger;
 
 public class AtomicIntegerApp {
     static AtomicIntegerEx atomicIntegerEx= new AtomicIntegerEx();
