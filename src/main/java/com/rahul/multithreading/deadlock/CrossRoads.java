@@ -16,7 +16,7 @@ public class CrossRoads {
         }
 
     }
-//just change the order of locks to get into deadlock , which is generally result cross chaining od lock dependencies
+//just change the order of locks to get into deadlock , which is generally result cross chaining of lock dependencies
     public void roadCrossing2() {
         synchronized (road1) {
             System.out.println("accquired lock for road 1 ");
