@@ -1,8 +1,20 @@
 package com.rahul.serialization;
 
-public class People {
+import java.io.Serializable;
+
+public class People implements Serializable {
+   // private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 2L;
     private int id;
     private String name;
+
+//    @Override
+//    public String toString() {
+//        return "People{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                '}';
+//    }
 
     public int getId() {
         return id;
