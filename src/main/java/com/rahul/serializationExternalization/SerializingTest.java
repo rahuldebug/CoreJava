@@ -2,7 +2,7 @@ package com.rahul.serializationExternalization;
 
 import java.io.*;
 
-public class SerializingApp {
+public class SerializingTest {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 //        Student student= new Student();
 //        student.setId(1);
