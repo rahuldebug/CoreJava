@@ -16,7 +16,7 @@ public class Main
 }
 
 //octal has limit of 00 to 07 , in this case 08 crosses that limit
-//in sout the first thing to concatinate is a string so eveything is getting concatinated
+//in sout the first thing to concatenate is a string so everything is getting concatenated
 // and short has limitation of 8bits or 32,xxx  hence some negative is getting printed for same
 
 // o/p :: 7-18727
