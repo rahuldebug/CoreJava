@@ -10,7 +10,7 @@ public class SingletonUsingInnerClass {
         private static final SingletonUsingInnerClass singletonUsingInnerClass = new SingletonUsingInnerClass();
     }
 
-    public SingletonUsingInnerClass getInstance() {
+    public static  SingletonUsingInnerClass getInstance() {
         return SingletonUsingInnerClassHelper.singletonUsingInnerClass;
     }
 }
