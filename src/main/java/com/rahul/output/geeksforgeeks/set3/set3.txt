@@ -1,0 +1,114 @@
+// too easy to be considered for coding so adding text file
+
+class Test {
+
+    // Declaring and initializing integer variable
+    int x = 10;
+
+    // Main driver method
+    public static void main(String[] args)
+    {
+
+        // Creating an object of class inside main()
+        Test t = new Test();
+
+        // Printing the value inside the object by
+        // above created object
+        System.out.println(t.x);
+    }
+}
+
+// o/p :: 10
+
+
+
+// filename: Test.java
+
+// Main class
+class Test {
+
+    // Declaring and initializing variables
+    int y = 2;
+    int x = y + 2;
+
+    // main driver method
+    public static void main(String[] args)
+    {
+
+        // Creating an object of class inside main() method
+        Test m = new Test();
+
+        // Printing the value of x and y
+        // using above object created
+        System.out.println("x = " + m.x + ", y = " + m.y);
+    }
+}
+
+//o/p :: x = 4, y = 2
+
+
+
+// filename: Test.java
+
+// Main class
+public class Test {
+    // Declaring and initializing integer with custom value
+    int x = 2;
+
+    // Constructor of this class
+    // Parameterized constructor
+    Test(int i) { x = i; }
+
+    // Main driver method
+    public static void main(String[] args)
+    {
+
+        // Creating object of class in main()
+        Test t = new Test(5);
+
+        // Printing the value
+        System.out.println("x = " + t.x);
+    }
+}
+
+//x = 5
+
+
+
+// filename: Test2.java
+
+// Class 1
+// Helper class
+class Test1 {
+
+    // Constructor of this class
+    Test1(int x)
+    {
+
+        // Print statement whenever this constructor is
+        // called
+        System.out.println("Constructor called " + x);
+    }
+}
+
+// Class 2
+// Class contains an instance of Test1
+// Main class
+class Test2 {
+
+    // Creating instance(object) of class1 in this class
+    Test1 t1 = new Test1(10);
+
+    // Constructor of this class
+    Test2(int i) { t1 = new Test1(i); }
+
+    // Main driver method
+    public static void main(String[] args)
+    {
+        // Creating instance of this class inside main()
+        Test2 t2 = new Test2(5);
+    }
+}
+
+//Constructor called 10
+ // Constructor called 5
