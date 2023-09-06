@@ -6,6 +6,8 @@ Collection
 
 ExceptionHandling
 
+Enums
+
 Immutable Classes
 
 Interface
