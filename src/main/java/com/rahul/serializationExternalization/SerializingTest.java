@@ -26,3 +26,4 @@ public class SerializingTest {
 // if parents implmets serialization , child need not mention it
 // com.rahul.serialization.People; local class incompatible: stream classdesc serialVersionUID = 1, local class serialVersionUID = 2
 
+//todo externalization
