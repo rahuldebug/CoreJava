@@ -27,3 +27,5 @@ public enum Weekdays {
     FRIDAY,
     SATURDAY;
 }
+//todo
+//abstract class , interface , singleton ex using enum

@@ -1,0 +1,4 @@
+cloneable and serializable already implemented
+
+//todo
+interview questions
