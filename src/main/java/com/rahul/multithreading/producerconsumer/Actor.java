@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Actor {
     int capacity = 10;
-    int intialval = 0;
+    int initial = 0;
     List<Integer> queue = new LinkedList<>();
 
     public void produce() {
@@ -22,7 +22,7 @@ public class Actor {
                     }
                 }
                 System.out.println("adding value to the queue");
-                queue.add(intialval++);
+                queue.add(initial++);
 
                 notifyAll();
 
