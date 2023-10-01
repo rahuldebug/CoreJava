@@ -1,0 +1,8 @@
+Platform threads (or the normal threads) are resource costly (the cost is generally 1-2 mb for such threads) but there is concept of virtualization .
+
+these virtual threads can be kept in ready state and mounted over Platform threads , The platform threads are already created and
+the number of platform thread is equal to number of core the machine has .
+
+so in case of virtual threads are blocked then , already existing unmounted threads can utilise the platform threads .
+
+
