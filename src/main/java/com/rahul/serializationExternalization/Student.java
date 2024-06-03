@@ -1,6 +1,8 @@
 package com.rahul.serializationExternalization;
 
-public class Student extends People /*implements Serializable  */{
+import java.io.Serializable;
+
+public class Student extends People implements Serializable {
 
     String section;
 

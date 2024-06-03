@@ -4,20 +4,20 @@ import java.io.*;
 
 public class SerializingTest {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-//        Student student= new Student();
-//        student.setId(1);
-//        student.setName("rahul");
-//        student.setSection("c");
+        Student student= new Student();
+        student.setId(1);
+        student.setName("rahul");
+        student.setSection("c");
           String filePath = "src/main/resources/student.ser";
-//        FileOutputStream fileOutputStream = new FileOutputStream(filePath);
-//        ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-//        objectOutputStream.writeObject(student);
+        FileOutputStream fileOutputStream = new FileOutputStream(filePath);
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+        objectOutputStream.writeObject(student);
 
 
-        FileInputStream fileInputStream = new FileInputStream(filePath);
-        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-        Student deserializedUser = (Student) objectInputStream.readObject();
-        System.out.println(deserializedUser);
+//        FileInputStream fileInputStream = new FileInputStream(filePath);
+//        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+//        Student deserializedUser = (Student) objectInputStream.readObject();
+//        System.out.println(deserializedUser);
 
     }
 }
