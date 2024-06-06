@@ -33,4 +33,4 @@
 [Singleton] 
 
 
-[*Present with explanation under src/main/java com.rahul.oops* ]
+[*Present with explanation under src/main/java com.rahul* ]
