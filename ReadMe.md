@@ -1,30 +1,36 @@
-The Core Java Section consists of following topics 
+**The Core Java Section consists of following topics** 
 
-Cloning
+[Cloning]
 
-Collection
 
-ExceptionHandling
+[Collection]
 
-Enums
+[ExceptionHandling]
 
-Immutable Classes
+[Enums]
 
-Interface
+[Immutable Classes]
 
-MarkerInterface
+[Interface]
 
-MultiThreading
+[MarkerInterface]
 
-OOPS
+[MultiThreading]
 
-TrickyQuestions OutPut
+[OOPS] 
+*         -Four pillars of OOPS
+*         -Abstraction -Abstraction can be achieved in java Interfaces and Abstract classes
+*         -Encapsulation -Hiding member variables and controlling access by methods
+*         -PolyMorphism - Runtime and compile time polymorphism
+*         -Inheritance -Parent child relationship
+[*Present with explanation under src/main/java com.rahul.oops* ]
 
-Reflection
+[TrickyQuestions OutPut]
 
-Serialization and Externalization 
+[Reflection]
 
-Singleton 
+[Serialization and Externalization ]
 
-Code with clear Explanation is also given for each Section 
-If needed diagrams are also attached for the sections .
+[Singleton] 
+
+

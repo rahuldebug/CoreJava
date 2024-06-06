@@ -1,6 +1,4 @@
-package com.rahul.oops.abstraction;
-
-import com.rahul.oops.abstraction.Car;
+package com.rahul.oops.abstractionAndInheritance;
 
 public class RollsRoyce extends Car {
     @Override

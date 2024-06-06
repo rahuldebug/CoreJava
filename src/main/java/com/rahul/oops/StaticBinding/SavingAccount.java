@@ -1,4 +1,4 @@
-package com.rahul.oops.bankaccount;
+package com.rahul.oops.StaticBinding;
 
 public class SavingAccount extends BankAccount {
     String name = "saving";

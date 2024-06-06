@@ -1,0 +1,49 @@
+[Abstraction in Java]
+
+        Abstraction is a way to hide the actual implementation and functionality .
+        In java this can be achieved by abstract class and interface .
+        
+        Abstraction lays down focus on what is being done , rather than how it is done .
+        
+        Type of methods: Interface can have only abstract methods. Whereas, an abstract class can have abstract method
+        and concrete methods.
+        From Java 8, it can have default and static methods also. From Java 9, it can have private concrete methods as well.
+        
+        
+        Abstract class can have final, non-final, static and non-static variables.
+        The interface has only static and final variables.
+        Abstract classes cannot be instantiated .
+
+[Encapsulation]
+
+        Encapsulation is defined as the wrapping up of data under a single unit.
+        It is the mechanism that binds together the code and the data it manipulates.
+        Another way to think about encapsulation is that it is a protective shield
+        that prevents the data from being accessed by the code outside this shield
+
+[Polymorphism]
+
+        Polymorphism are of two types ,
+        compile time (early binding)
+        runtime or dynamic dispatch or late binding
+
+[Association]
+
+        Association in oops is relation between objects ,
+        Strong relationship : Composition
+        when existence of one objects depends on another object , 
+        window object and a house object , existence of windows object depends on the house
+
+[Constructor]
+
+        Constructor cannot be static , final , synchronized or abstract
+
+[Immutability in java] 
+
+        once Object is created it cannot be modified .
+        
+        1> Declaring class final , so it cannot be extended , or inherited
+        2> setting values using constructor
+        3> no setters method , only getters
+        4> private final class members
+        5> if class contains other objects , then send only copy of the member variable , instead of sending actual member variable .(will look into cloning more )

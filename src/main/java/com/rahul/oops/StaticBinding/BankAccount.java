@@ -1,4 +1,4 @@
-package com.rahul.oops.bankaccount;
+package com.rahul.oops.StaticBinding;
 
 // Abstraction , in java Abstraction can be achieved using abstract class or interface
 // Abstract class cannot be initialized

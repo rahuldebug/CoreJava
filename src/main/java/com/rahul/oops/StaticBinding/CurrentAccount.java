@@ -1,4 +1,4 @@
-package com.rahul.oops.bankaccount;
+package com.rahul.oops.StaticBinding;
 
 public class CurrentAccount extends BankAccount {
     //we know balance can go to negative as instant loan facility is also available
