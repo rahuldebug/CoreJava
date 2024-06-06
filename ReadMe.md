@@ -23,7 +23,6 @@
 *         -Encapsulation -Hiding member variables and controlling access by methods
 *         -PolyMorphism - Runtime and compile time polymorphism
 *         -Inheritance -Parent child relationship
-[*Present with explanation under src/main/java com.rahul.oops* ]
 
 [TrickyQuestions OutPut]
 
@@ -34,3 +33,4 @@
 [Singleton] 
 
 
+[*Present with explanation under src/main/java com.rahul.oops* ]
