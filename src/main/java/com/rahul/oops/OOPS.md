@@ -78,3 +78,5 @@
         3> no setters method , only getters
         4> private final class members
         5> if class contains other objects , then send only copy of the member variable , instead of sending actual member variable .(will look into cloning more )
+
+[JUST ONE FOLDER UP , YOU CAN SEE THE CODE]
