@@ -12,7 +12,8 @@
         
         Abstract class can have final, non-final, static and non-static variables.
         The interface has only static and final variables.
-        Abstract classes cannot be instantiated .
+        Abstract classes cannot be instantiated . 
+        They may or may not have abstract method, they also contain constructo 
 
 [Encapsulation]
 
@@ -20,19 +21,49 @@
         It is the mechanism that binds together the code and the data it manipulates.
         Another way to think about encapsulation is that it is a protective shield
         that prevents the data from being accessed by the code outside this shield
+        
+        Declarative type of programming is also a kind of abstration , instead of directly
+        focusing on logic we are using inbuilt methods of stream from java 8 .
 
 [Polymorphism]
 
         Polymorphism are of two types ,
-        compile time (early binding)
-        runtime or dynamic dispatch or late binding
+
+        compile-time (early binding or static binding) --> Method Overloading in java .
+
+[Rules for Method Overloading ]
+
+        - same name with different number of arguments 
+        - same name with different type of arguments
+        **  IMPORTANT ** , just changing the return type won't qualify for Overloading , It happens in same class .
+
+[Method Overriding ]
+
+          run-time (dynamic dispatch or late binding) --> Method Overridng , (Parent - child relation)
+           -   if the child Object is created using Parent reference , 
+               and method in child has been override , 
+               then the corresponding object will have parents variable and child's method.
+
+[Rules for Overriding]
+
+        -overriding method can have more relaxed access modifier and not less
+        -name and parameter type is same 
+        -final methods cannot be overridden
+        -static methods cannot be overridden
+        -Overriding method should have same type or subtype 
+        
+        -Exception related rule 
+            -if super class has not thrown any exception then child class can only throw unchecked exception
+            -If super class throws exception then subclass can only throw same or subclass of the exception
+
 
 [Association]
 
         Association in oops is relation between objects ,
-        Strong relationship : Composition
-        when existence of one objects depends on another object , 
-        window object and a house object , existence of windows object depends on the house
+
+        Strong relationship : Composition (is-a relationship) :: class subclasses
+
+        weak relationship  : Aggregation (has-a relationship) :: interface relationship
 
 [Constructor]
 
