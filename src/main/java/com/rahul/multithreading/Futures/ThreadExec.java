@@ -22,8 +22,17 @@ public class ThreadExec {
             return "task completed";
         },threadPoolExecutor);
 
-        //then apply , then apply async will be done later
 
+        //then apply
+        CompletableFuture<String>asyncTask2= CompletableFuture.supplyAsync(()->{
+            System.out.println("hi");
+            return "task completed";
+        },threadPoolExecutor).thenApply((String s)->s+"abc");
+
+
+
+
+        //Future and Callable //
         List<Integer>result=new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
