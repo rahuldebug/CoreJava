@@ -9,7 +9,8 @@ package com.rahul.enums;
  * it can have abstract methods ,
  * but constants needs to implement the methods ,
  * every jvm will have only one instance of enum (protection
- * from reflection in case of singleton ) */
+ * from reflection in case of singleton )
+ */
 
 /*some methods of enum
 valueOf()

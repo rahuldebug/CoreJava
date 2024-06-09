@@ -5,10 +5,10 @@ public class CrossRoads {
     Object road2 = new Object();
 
     public void roadCrossing1() {
-        synchronized (road1) {
+        synchronized (road2) {
             System.out.println("accquired lock for road 1 ");
             System.out.println(Thread.currentThread().getName());
-            synchronized (road2) {
+            synchronized (road1) {
                 System.out.println("accquired lock for road 2");
                 System.out.println("now let train pass");
                 System.out.println(Thread.currentThread().getName());
