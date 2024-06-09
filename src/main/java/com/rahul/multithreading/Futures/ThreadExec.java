@@ -3,7 +3,9 @@ package com.rahul.multithreading.Futures;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
+
 /*Thread Executer with futures and callable*/
+
 public class ThreadExec {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(
@@ -12,6 +14,16 @@ public class ThreadExec {
                 1,
                 TimeUnit.HOURS,
                 new ArrayBlockingQueue<>(10));
+
+
+        //plain completable future
+        CompletableFuture<String>asyncTask= CompletableFuture.supplyAsync(()->{
+            System.out.println("hi");
+            return "task completed";
+        },threadPoolExecutor);
+
+        //then apply , then apply async will be done later
+
         List<Integer>result=new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
